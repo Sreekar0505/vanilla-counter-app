@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Counter</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Counter</h1>
+      <h1 id="counterText" class="countValue"></h1>
+      <div class="btnGroup">
+        <button id="decrementBtn">-</button>
+        <button id="incrementBtn">+</button>
+      </div>
+      <div class="delta">
+        <label for="changeBy">Increment/Decrement by: </label>
+        <input id="changeBy" type="number" value="1" min="1" max="10" />
+      </div>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>

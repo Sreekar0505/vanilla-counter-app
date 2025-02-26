@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countValue {
+  font-size: 3rem;
+}
+
+.btnGroup {
+  margin-bottom: 1rem;
+  #decrementBtn {
+    background-color: rgb(231, 116, 116);
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+  }
+  #incrementBtn {
+    background-color: rgb(110, 242, 121);
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.delta {
+  margin-bottom: 2rem;
+}
+
+#resetBtn {
+  background-color: rgb(204, 223, 255);
+  border-radius: 5px;
+  height: 2rem;
+  width: 4.5rem;
+}
