@@ -15,18 +15,22 @@ body {
 
 .btnGroup {
   margin-bottom: 1rem;
-  #decrementBtn {
-    background-color: rgb(231, 116, 116);
-    border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
-  }
-  #incrementBtn {
-    background-color: rgb(110, 242, 121);
-    border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
-  }
+}
+
+#decrementBtn {
+  background-color: rgb(231, 116, 116);
+  border-radius: 5px;
+  width: 2rem;
+  height: 2rem;
+  cursor: poiner;
+}
+
+#incrementBtn {
+  background-color: rgb(110, 242, 121);
+  border-radius: 5px;
+  width: 2rem;
+  height: 2rem;
+  cursor: poiner;
 }
 
 .delta {
@@ -38,4 +42,5 @@ body {
   border-radius: 5px;
   height: 2rem;
   width: 4.5rem;
+  cursor: poiner;
 }
